@@ -19,7 +19,7 @@ namespace Tyuiu.GurevskayaVE.Sprint2.Task0.V27.Test
 
             bool[] wait = new bool[6] { true, false, true, false, false, true };
 
-            CollectionAssert.AreEqual(wait, res);
+            CollectionAssert.AreEqual(wait, res); 
         }
     }
 }
