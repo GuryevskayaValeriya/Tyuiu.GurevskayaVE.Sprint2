@@ -35,6 +35,9 @@ namespace Tyuiu.GurevskayaVE.Sprint2.Task0.V27
             bool[] res = new bool[6];
             res = ds.GetCompareOperations(x, y);
 
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("***************************************************************************");
+
             for (int i = 0; i < 6; i++)
             {
                 Console.WriteLine(res[i]);
